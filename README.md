@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/[fm3434fm]/[Snake-Game-on-MSP430]/blob/[main]/System-Block-Diagram.jpg?raw=true)
+![alt text](https://github.com/[fm3434fm]/[Snake-Game-on-MSP430]/blob/[main]/System-Block-Diagram.JPG?raw=true)
 
 Hardware Architecture: 
 This architecture consists of a 3 x 3 Keyboard PCB with four key switches and four key caps attached to a PCB. These form the up, down, left ,and right buttons. These buttons handle in-game movement, allowing players to move the snake to eat food.The keyboard PCB is then also connected to a MSP430G2553 microcontroller at pins 2.0, 2.2, 2.3, and 2.4. A 16 x 16 LED matrix is also connected to the same MSP430G2553 microcontroller as well. Specifically,  its DIN wire, 5V wire, and GND wire connected to the microcontroller’s 1.7 pin, 5V pin, and GND pin respectively . This LED matrix displays the snake game, showing  snake  movement and food location in-game as well as corresponding start-up, win, and loss condition LED light animations. 
